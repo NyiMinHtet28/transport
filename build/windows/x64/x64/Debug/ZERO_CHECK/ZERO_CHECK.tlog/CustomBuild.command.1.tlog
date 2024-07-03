@@ -1,0 +1,10 @@
+^D:\PJ\PUBLIC_TRANSPORT_APP\PUBLIC_TRANSPORT\BUILD\WINDOWS\X64\CMAKEFILES\1750A3C5804261C3E6FD1EE278443CF8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/pj/public_transport_app/public_transport/windows -BD:/pj/public_transport_app/public_transport/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/pj/public_transport_app/public_transport/build/windows/x64/public_transport.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

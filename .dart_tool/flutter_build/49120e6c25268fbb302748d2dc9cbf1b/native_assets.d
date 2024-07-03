@@ -1,0 +1,1 @@
+ D:\\pj\\public_transport_app\\public_transport\\.dart_tool\\flutter_build\\49120e6c25268fbb302748d2dc9cbf1b\\native_assets.yaml: 
